@@ -11,5 +11,5 @@ function calcularValorHora() {
 
     var valorHora = (valorMes.valueAsNumber / quantidadeDiasMes.valueAsNumber) / horasDia.valueAsNumber;
     
-    resultado.textContent = valorHora;
+    resultado.textContent = (valorHora.toFixed(2));
 }
